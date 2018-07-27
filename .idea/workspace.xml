@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e81149c-3940-495d-a78a-5984a7964a76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centroidtracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/centroidtracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_tracker.py" afterDir="false" />
-    </list>
+    <list default="true" id="6e81149c-3940-495d-a78a-5984a7964a76" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="object_tracker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="object_tracker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/object_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="735">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -27,10 +23,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="centroidtracker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="centroidtracker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centroidtracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="1200">
               <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -129,22 +125,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object_tracker.py">
+    <entry file="file://$PROJECT_DIR$/centroidtracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centroidtracker.py">
+    <entry file="file://$PROJECT_DIR$/object_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+        <state relative-caret-position="735">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
