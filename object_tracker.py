@@ -49,11 +49,6 @@ while True:
 
     objects = ct.update(rects)
 
-    for (objecID, centroid) in objects.items():
-
-        text = "ID {}".format(objecID)
-        cv2.putText(frame, text, (centroid[0] - 10, centroid[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 2)
-        cv2.circle(frame, (centroid[0], centroid[1]), 4, (0,255,0), -1)
 
     cv2.imshow("Frame", frame)
     key = cv2.waitKey(1) & 0xFF
