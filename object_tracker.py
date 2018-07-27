@@ -14,7 +14,7 @@ ap.add_argument("-c", "--confidence", type=float, default=0.5, help="minimum pro
 args = vars(ap.parse_args())
 
 ct = CentroidTracker()
-(H, w) = (None, None)
+(H, W) = (None, None)
 
 print("[INFO]  Loading model ...")
 net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
@@ -28,13 +28,13 @@ while True:
     frame = vs.read()
     frame = imutils.resize(frame, width=400)
 
-    if W in None or H is None:
+    if W is None or H is None:
 
         (H, W) = frame.shape[:2]
 
-    blob = cv2.dnn.blobFromImage(frame, 1.0, (W,H)), (104.0,177.0,123.0)
+    blob = cv2.dnn.blobFromImage(frame, 1.0, (W,H), (104.0,177.0,123.0))
     net.setInput(blob)
-    detections = net.foward()
+    detections = net.forward()
     rects = []
 
     for i in range(0, detections.shape[2]):

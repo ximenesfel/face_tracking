@@ -78,7 +78,7 @@ class CentroidTracker():
                 self.disappeared[objectID] = 0
 
                 usedRows.add(row)
-                usedCols.add(cols)
+                usedCols.add(col)
 
             unusedRows = set(range(0, D.shape[0])).difference(usedRows)
             unusedCols = set(range(0, D.shape[1])).difference(usedCols)
