@@ -9,7 +9,7 @@ In this project was created an application that perform face tracking in real-ti
 - Memory: 16 GB
 - Processor: Intel Core i7 (7th Gen)
 
-## Instalation
+## Installation
 
 1. Install virtualenv using step #3 from this [post](https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/).
 2. Create a new env using this command ```mkvirtualenv "name_env" -p python3```. Change "name_env" for your choice name.
