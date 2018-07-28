@@ -30,9 +30,6 @@ Quit
 ```sh
 Press "q" key
 ```
-## Result
-
-![Alt Text](https://i.imgflip.com/2etxvv.gif)
 
 ## Reference
 
