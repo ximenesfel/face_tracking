@@ -1,13 +1,10 @@
+<div style="text-align: center">
+  <img src="figure_1.gif" style="width: 400px; height: 400px;" />
+</div>
+
 ## Face tracking
 
 In this project was created an application that perform face tracking in real-time.
-
-## Hardware configuration
-
-- OS: Linux [Ubuntu 16.04 LTS - 64 bits]
-- GPU: NVIDIA GeForce GTX 1060 (6GB)
-- Memory: 16 GB
-- Processor: Intel Core i7 (7th Gen)
 
 ## Installation
 
@@ -15,7 +12,7 @@ In this project was created an application that perform face tracking in real-ti
 2. Create a new env using this command ```mkvirtualenv "name_env" -p python3```. Change "name_env" for your choice name.
 3. Enter inside env: ```workon "name_env"```. Change "name_env" for your choice name.
 4. Clone this respository using ```git clone https://github.com/ximenesfel/face_tracking.git``` command.
-5. Install dependences: ```pip -r requirements.txt```.
+5. Install dependences: ```pip install -r requirements.txt```.
 
 ## Usage
 
